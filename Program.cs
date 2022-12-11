@@ -3,4 +3,8 @@
 // Pessoa p = new Pessoa();
 
 /* ou assim: */
-ExemplosFundamentos.Models.Pessoa p = new ExemplosFundamentos.Models.Pessoa();
+ExemplosFundamentos.Models.Pessoa pessoa1 = new ExemplosFundamentos.Models.Pessoa();
+
+pessoa1.Nome = "Vinicius";
+pessoa1.Idade = 38;
+pessoa1.Apresentar();
