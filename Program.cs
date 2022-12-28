@@ -1,16 +1,30 @@
 ﻿/* assim: */
 using ExemplosFundamentos.Models;
 
-string apresentacao = "Olá, seja bem-vindo";
-int quantidade = 1;
-double altura = 1.80;
-decimal preco = 1.80M;
-bool condicao = true;
+DateTime dataAtual = DateTime.Now;
+Console.WriteLine($"{dataAtual.AddDays(5)}");
 
-Console.WriteLine(apresentacao);
-Console.WriteLine("Altura: " + altura.ToString("0.00"));
-Console.WriteLine("Preço: " + preco);
-Console.WriteLine("Quantidade e Condição: " + quantidade + " - " + condicao);
+
+
+
+
+
+
+
+
+
+// string apresentacao = "Olá, seja bem-vindo";
+// int quantidade = 1;
+// quantidade = 10;
+// double altura = 1.80;
+// decimal preco = 1.80M;
+// bool condicao = true;
+// condicao = false;
+
+// Console.WriteLine(apresentacao);
+// Console.WriteLine("Altura: " + altura.ToString("0.00"));
+// Console.WriteLine("Preço: " + preco);
+// Console.WriteLine("Quantidade e Condição: " + quantidade + " - " + condicao);
 
 
 
