@@ -2,7 +2,8 @@
 using ExemplosFundamentos.Models;
 
 DateTime dataAtual = DateTime.Now;
-Console.WriteLine($"{dataAtual.AddDays(5)}");
+Console.WriteLine(dataAtual.AddDays(5));
+Console.WriteLine($"{dataAtual.ToString("dd/MM/yyyy")}");
 
 
 
