@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Meus Projetos + Cursos\\DIO\\Pottencial .NET com C#\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
+      "projectUniqueName": "A:\\dev\\DIO\\Pottencial .NET com C#\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
       "projectName": "ExemplosFundamentos",
-      "projectPath": "A:\\Meus Projetos + Cursos\\DIO\\Pottencial .NET com C#\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
+      "projectPath": "A:\\dev\\DIO\\Pottencial .NET com C#\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
       "packagesPath": "C:\\Users\\vmm_7\\.nuget\\packages\\",
-      "outputPath": "A:\\Meus Projetos + Cursos\\DIO\\Pottencial .NET com C#\\ExemplosFundamentos\\obj\\",
+      "outputPath": "A:\\dev\\DIO\\Pottencial .NET com C#\\ExemplosFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

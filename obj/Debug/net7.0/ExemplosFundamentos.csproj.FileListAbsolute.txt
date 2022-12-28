@@ -13,3 +13,18 @@ A:\Meus Projetos + Cursos\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Deb
 A:\Meus Projetos + Cursos\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.pdb
 A:\Meus Projetos + Cursos\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.genruntimeconfig.cache
 A:\Meus Projetos + Cursos\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ref\ExemplosFundamentos.dll
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\bin\Debug\net7.0\ExemplosFundamentos.exe
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\bin\Debug\net7.0\ExemplosFundamentos.deps.json
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\bin\Debug\net7.0\ExemplosFundamentos.runtimeconfig.json
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\bin\Debug\net7.0\ExemplosFundamentos.dll
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\bin\Debug\net7.0\ExemplosFundamentos.pdb
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.csproj.AssemblyReference.cache
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.AssemblyInfoInputs.cache
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.AssemblyInfo.cs
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.csproj.CoreCompileInputs.cache
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.dll
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\refint\ExemplosFundamentos.dll
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.pdb
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ExemplosFundamentos.genruntimeconfig.cache
+A:\dev\DIO\Pottencial .NET com C#\ExemplosFundamentos\obj\Debug\net7.0\ref\ExemplosFundamentos.dll
