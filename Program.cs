@@ -2,14 +2,42 @@
 using ExemplosFundamentos.Models;
 
 
+// O TryParse EVITA quebrar a execução do programa caso dê algum erro de conversão!
+string a = "15--c";
+int b = 0;
+
+int.TryParse(a, out b);
+
+Console.WriteLine(b);
+Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+
+// int x = int.MaxValue;
+// long y = x;
+
+// Console.WriteLine(y);
+
+// Cast Implícito
+// int a = 10;
+// double b = a;
+// Console.WriteLine(b);
+// Portanto, fazer:
+// "double b = Convert.ToDouble(a);" seria REDUNDANTE! O double cabe o inteiro e muito mais.
+// Já o inverso dará RUIM, pois o double NÃO CABE no int! Nesse caso devemos fazer a conversão explicitamente:
+// int b = Convert.ToInt32(a);
+
+
+
 // Cast ou Casting
 // int a = Convert.ToInt32("5");
 // int a = int.Parse("5");
 // int a = Convert.ToInt32(null);
-int inteiro = 5;
-string a = inteiro.ToString();
+// int inteiro = 5;
+// string a = inteiro.ToString();
 
-Console.WriteLine(a);
+// Console.WriteLine(a);
 
 
 
