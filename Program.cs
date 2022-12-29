@@ -4,7 +4,10 @@ using ExemplosFundamentos.Models;
 
 // Cast ou Casting
 // int a = Convert.ToInt32("5");
-int a = int.Parse("5");
+// int a = int.Parse("5");
+// int a = Convert.ToInt32(null);
+int inteiro = 5;
+string a = inteiro.ToString();
 
 Console.WriteLine(a);
 
