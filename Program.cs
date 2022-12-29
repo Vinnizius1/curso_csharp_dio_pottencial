@@ -4,9 +4,9 @@ using ExemplosFundamentos.Models;
 
 // O TryParse EVITA quebrar a execução do programa caso dê algum erro de conversão!
 string a = "15--c";
-int b = 0;
-
-int.TryParse(a, out b);
+// int b = 110;
+// int.TryParse(a, out b); OU posso fazer assim também:
+int.TryParse(a, out int b);
 
 Console.WriteLine(b);
 Console.WriteLine("Conversão realizada com sucesso!");
