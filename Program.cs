@@ -1,16 +1,23 @@
 ﻿/* assim: */
 using ExemplosFundamentos.Models;
 
-DateTime dataAtual = DateTime.Now;
-Console.WriteLine(dataAtual.AddDays(5));
-Console.WriteLine($"{dataAtual.ToString("dd/MM/yyyy")}");
-Console.WriteLine($"{dataAtual.ToString("dd/MM/yyyy HH:mm")}");
+
+// Cast ou Casting
+// int a = Convert.ToInt32("5");
+int a = int.Parse("5");
+
+Console.WriteLine(a);
 
 
 
 
 
 
+
+// DateTime dataAtual = DateTime.Now;
+// Console.WriteLine(dataAtual.AddDays(5));
+// Console.WriteLine($"{dataAtual.ToString("dd/MM/yyyy")}");
+// Console.WriteLine($"{dataAtual.ToString("dd/MM/yyyy HH:mm")}");
 
 
 
