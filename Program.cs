@@ -1,24 +1,42 @@
-﻿// using ExemplosFundamentos.Models;
+﻿using ExemplosFundamentos.Models;
+
+
+
+// Calculadora
+Calculadora calc = new Calculadora();
+
+calc.Somar(10, 40);
+calc.Subtrair(10, 50);
+calc.Multiplicar(15, 25);
+calc.Dividir(2, 2);
+
+
+
+
+
+
+
+
 
 
 // Switch case
-Console.WriteLine("Digite uma letra:");
-string letra = Console.ReadLine();
+// Console.WriteLine("Digite uma letra:");
+// string letra = Console.ReadLine();
 
-switch (letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        System.Console.WriteLine("Vogal");
-        break;
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         System.Console.WriteLine("Vogal");
+//         break;
 
-    default:
-        System.Console.WriteLine("Não é uma vogal");
-        break;
-}
+//     default:
+//         System.Console.WriteLine("Não é uma vogal");
+//         break;
+// }
 
 
 
