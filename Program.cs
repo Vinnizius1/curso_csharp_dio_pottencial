@@ -5,10 +5,11 @@
 // Calculadora
 Calculadora calc = new Calculadora();
 
-calc.Somar(10, 40);
-calc.Subtrair(10, 50);
-calc.Multiplicar(15, 25);
-calc.Dividir(2, 2);
+// calc.Somar(10, 40);
+// calc.Subtrair(10, 50);
+// calc.Multiplicar(15, 25);
+// calc.Dividir(2, 2);
+calc.Potencia(2, 3);
 
 
 
