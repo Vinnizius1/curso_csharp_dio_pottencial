@@ -2,13 +2,30 @@
 
 
 
-//FOR
+//WHILE
 int numero = 5;
+int contador = 0;
 
-for (int contador = 0; contador <= 10; contador = contador + 2)
+while (contador <= 10)
 {
-    System.Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    System.Console.WriteLine($"{contador + 1}° Execução: {numero} x {contador} = {numero * contador}");
+    contador++;
 }
+
+
+
+
+
+
+
+
+//FOR
+// int numero = 5;
+
+// for (int contador = 0; contador <= 10; contador = contador + 2)
+// {
+//     System.Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// }
 
 
 
