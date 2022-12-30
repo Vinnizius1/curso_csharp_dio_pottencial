@@ -2,8 +2,22 @@
 
 
 
+//FOR
+int numero = 5;
+
+for (int contador = 0; contador <= 10; contador = contador + 2)
+{
+    System.Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
+
+
+
+
+
+
+
 // Calculadora
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
 // calc.Somar(10, 40);
 // calc.Subtrair(10, 50);
@@ -15,8 +29,7 @@ Calculadora calc = new Calculadora();
 // calc.Coseno(30);
 // calc.Tangente(30);
 
-calc.RaizQuadrada(16);
-
+// calc.RaizQuadrada(16);
 
 
 
