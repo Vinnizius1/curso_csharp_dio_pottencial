@@ -10,6 +10,11 @@ while (contador <= 10)
 {
     System.Console.WriteLine($"{contador + 1}° Execução: {numero} x {contador} = {numero * contador}");
     contador++;
+
+    if (contador == 5)
+    {
+        break;
+    }
 }
 
 
