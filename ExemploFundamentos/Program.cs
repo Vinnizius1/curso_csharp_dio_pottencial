@@ -1,48 +1,51 @@
-﻿using ExemplosFundamentos.Models;
+﻿using ExemplosFundamentos.Common.Models;
+
+
+Pessoa pessoa1 = new Pessoa();
 
 
 // Construindo um menu interativo
-string opcao;
-bool exibirMenu = true;
+// string opcao;
+// bool exibirMenu = true;
 
-while (exibirMenu)
-{
-    Console.Clear();
-    System.Console.WriteLine("Digite a sua opção:");
-    System.Console.WriteLine("1 - Cadastrar cliente");
-    System.Console.WriteLine("2 - Buscar cliente");
-    System.Console.WriteLine("3 - Apagar cliente");
-    System.Console.WriteLine("4 - Encerrar");
+// while (exibirMenu)
+// {
+//     Console.Clear();
+//     System.Console.WriteLine("Digite a sua opção:");
+//     System.Console.WriteLine("1 - Cadastrar cliente");
+//     System.Console.WriteLine("2 - Buscar cliente");
+//     System.Console.WriteLine("3 - Apagar cliente");
+//     System.Console.WriteLine("4 - Encerrar");
 
-    opcao = Console.ReadLine();
+//     opcao = Console.ReadLine();
 
-    switch (opcao)
-    {
-        case "1":
-            System.Console.WriteLine("Cadastro de cliente");
-            break;
+//     switch (opcao)
+//     {
+//         case "1":
+//             System.Console.WriteLine("Cadastro de cliente");
+//             break;
 
-        case "2":
-            System.Console.WriteLine("Busca de cliente");
-            break;
+//         case "2":
+//             System.Console.WriteLine("Busca de cliente");
+//             break;
 
-        case "3":
-            System.Console.WriteLine("Apagar cliente");
-            break;
+//         case "3":
+//             System.Console.WriteLine("Apagar cliente");
+//             break;
 
-        case "4":
-            System.Console.WriteLine("Encerrar");
-            exibirMenu = false;
-            // Environment.Exit(0);
-            break;
+//         case "4":
+//             System.Console.WriteLine("Encerrar");
+//             exibirMenu = false;
+//             // Environment.Exit(0);
+//             break;
 
-        default:
-            System.Console.WriteLine("Opção inválida");
-            break;
-    }
-}
+//         default:
+//             System.Console.WriteLine("Opção inválida");
+//             break;
+//     }
+// }
 
-System.Console.WriteLine("O programa se encerrou");
+// System.Console.WriteLine("O programa se encerrou");
 
 
 
