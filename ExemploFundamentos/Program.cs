@@ -3,6 +3,10 @@
 
 Pessoa pessoa1 = new Pessoa();
 
+pessoa1.Nome = "Vinicius";
+pessoa1.Idade = 38;
+pessoa1.Apresentar();
+
 
 // Construindo um menu interativo
 // string opcao;
