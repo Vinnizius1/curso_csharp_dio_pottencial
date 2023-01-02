@@ -1,21 +1,64 @@
 ﻿using ExemplosFundamentos.Models;
 
 
-// Do While
-int soma = 0, numero = 0;
+// Construindo um menu interativo
+string opcao;
 
-do
+while (true)
 {
-    System.Console.WriteLine("Digite um número (0 para sair):");
-    numero = Convert.ToInt32(Console.ReadLine());
+    Console.Clear();
+    System.Console.WriteLine("Digite a sua opção:");
+    System.Console.WriteLine("1 - Cadastrar cliente");
+    System.Console.WriteLine("2 - Buscar cliente");
+    System.Console.WriteLine("3 - Apagar cliente");
+    System.Console.WriteLine("4 - Encerrar");
 
-    soma += numero;
+    opcao = Console.ReadLine();
 
-} while (numero != 0);
+    switch (opcao)
+    {
+        case "1":
+            System.Console.WriteLine("Cadastro de cliente");
+            break;
 
-Console.WriteLine($"Total da soma dos números digitados é: {soma}");
+        case "2":
+            System.Console.WriteLine("Busca de cliente");
+            break;
+
+        case "3":
+            System.Console.WriteLine("Apagar cliente");
+            break;
+
+        case "4":
+            System.Console.WriteLine("Encerrar");
+            Environment.Exit(0);
+            break;
+
+        default:
+            System.Console.WriteLine("Opção inválida");
+            break;
+    }
+}
+
+System.Console.WriteLine("O programa se encerrou");
 
 
+
+
+
+// Do While
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     System.Console.WriteLine("Digite um número (0 para sair):");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// } while (numero != 0);
+
+// Console.WriteLine($"Total da soma dos números digitados é: {soma}");
 
 
 
