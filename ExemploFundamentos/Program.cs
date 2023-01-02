@@ -1,11 +1,40 @@
 ﻿using ExemplosFundamentos.Common.Models;
 
 
-Pessoa pessoa1 = new Pessoa();
+int[] arrayInteiros = { 72, 64, 50 };
 
-pessoa1.Nome = "Vinicius";
-pessoa1.Idade = 38;
-pessoa1.Apresentar();
+// Percorrendo o Array com o FOR
+System.Console.WriteLine("Percorrendo o Array com o FOR");
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    System.Console.WriteLine($"Posição n° {contador} - {arrayInteiros[contador]}");
+}
+
+// Percorrendo o Array com o FOREACH
+System.Console.WriteLine("Percorrendo o Array com o FOREACH");
+int contadorForeach = 0;
+foreach (int valor in arrayInteiros)
+{
+    System.Console.WriteLine($"Posição n° {contadorForeach} - {valor}");
+    contadorForeach++;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa pessoa1 = new Pessoa();
+
+// pessoa1.Nome = "Vinicius";
+// pessoa1.Idade = 38;
+// pessoa1.Apresentar();
 
 
 // Construindo um menu interativo
