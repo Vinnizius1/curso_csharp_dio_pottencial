@@ -3,8 +3,9 @@
 
 // Construindo um menu interativo
 string opcao;
+bool exibirMenu = true;
 
-while (true)
+while (exibirMenu)
 {
     Console.Clear();
     System.Console.WriteLine("Digite a sua opção:");
@@ -31,7 +32,8 @@ while (true)
 
         case "4":
             System.Console.WriteLine("Encerrar");
-            Environment.Exit(0);
+            exibirMenu = false;
+            // Environment.Exit(0);
             break;
 
         default:
