@@ -1,22 +1,25 @@
 ﻿using ExemplosFundamentos.Common.Models;
 
 
-int[] arrayInteiros = { 72, 64, 50 };
+// Sintaxe de uma Lista
+List<string> listaString = new List<string>();
 
-// Duas formas de "redimensionarmos" o Array
-// Array.Copy( )
-int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
-Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+listaString.Add("SP");
+listaString.Add("GO");
+listaString.Add("BA");
 
-// Array.Resize( )
-Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
-
-
-// Percorrendo o Array com o FOR
-System.Console.WriteLine("Percorrendo o Array com o FOR");
-for (int contador = 0; contador < arrayInteiros.Length; contador++)
+System.Console.WriteLine("Percorrendo a lista com o FOR:");
+for (int contador = 0; contador < listaString.Count; contador++)
 {
-    System.Console.WriteLine($"Posição n° {contador} - {arrayInteiros[contador]}");
+    System.Console.WriteLine($"Posição n° {contador + 1} - {listaString[contador]}");
+}
+
+System.Console.WriteLine("Percorrendo a lista com o FOREACH:");
+int contadorForeach = 0;
+foreach (string item in listaString)
+{
+    System.Console.WriteLine($"Posição n° {contadorForeach + 1} - {item}");
+    contadorForeach++;
 }
 
 
@@ -25,9 +28,23 @@ for (int contador = 0; contador < arrayInteiros.Length; contador++)
 
 
 
+// int[] arrayInteiros = { 72, 64, 50 };
+
+// // Duas formas de "redimensionarmos" o Array
+// // Array.Copy( )
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+// // Array.Resize( )
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
 
-
+// // Percorrendo o Array com o FOR
+// System.Console.WriteLine("Percorrendo o Array com o FOR");
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     System.Console.WriteLine($"Posição n° {contador} - {arrayInteiros[contador]}");
+// }
 
 
 
