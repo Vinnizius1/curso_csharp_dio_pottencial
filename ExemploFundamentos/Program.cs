@@ -3,7 +3,12 @@
 
 int[] arrayInteiros = { 72, 64, 50 };
 
+// Duas formas de "redimensionarmos" o Array
+// Array.Copy( )
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
+// Array.Resize( )
 Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
 
