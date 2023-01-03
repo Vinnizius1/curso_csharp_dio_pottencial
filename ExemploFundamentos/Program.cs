@@ -1,11 +1,14 @@
 ﻿using ExemplosFundamentos.Common.Models;
 
 
+/* Exemplos para testar os "Comentários" via summary e param */
 Pessoa pessoa1 = new Pessoa();
-
 pessoa1.Nome = "Vinicius";
 pessoa1.Idade = 38;
 pessoa1.Apresentar();
+
+Calculadora c = new Calculadora();
+c.Somar(3, 5);
 
 
 

@@ -7,6 +7,11 @@ namespace ExemplosFundamentos.Common.Models
 {
     public class Calculadora
     {
+        /// <summary>
+        /// Realiza a soma de dois números.
+        /// </summary>
+        /// <param name="x">O primeiro número inteiro para somar</param>
+        /// <param name="y">O segundo número inteiro para somar</param>
         public void Somar(int x, int y)
         {
             System.Console.WriteLine($"{x} + {y} = {x + y}");
