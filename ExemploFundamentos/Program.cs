@@ -1,23 +1,33 @@
 ﻿using ExemplosFundamentos.Common.Models;
 
 
+Pessoa pessoa1 = new Pessoa();
+
+pessoa1.Nome = "Vinicius";
+pessoa1.Idade = 38;
+pessoa1.Apresentar();
+
+
+
+
+
 // Sintaxe de uma Lista
-List<string> listaString = new List<string>();
+// List<string> listaString = new List<string>();
 
-listaString.Add("SP");
-listaString.Add("GO");
-listaString.Add("BA");
-listaString.Add("MG");
+// listaString.Add("SP");
+// listaString.Add("GO");
+// listaString.Add("BA");
+// listaString.Add("MG");
 
-System.Console.WriteLine($"Itens na minha Lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// System.Console.WriteLine($"Itens na minha Lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Add("SC");
+// listaString.Add("SC");
 
-System.Console.WriteLine($"Itens na minha Lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// System.Console.WriteLine($"Itens na minha Lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Remove("MG");
+// listaString.Remove("MG");
 
-System.Console.WriteLine($"Itens na minha Lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// System.Console.WriteLine($"Itens na minha Lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 
 
