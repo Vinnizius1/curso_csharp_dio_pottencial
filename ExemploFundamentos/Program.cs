@@ -9,6 +9,7 @@ pessoa1.Apresentar();
 
 Calculadora c = new Calculadora();
 c.Somar(3, 5);
+c.Subtrair(13, 15);
 
 
 

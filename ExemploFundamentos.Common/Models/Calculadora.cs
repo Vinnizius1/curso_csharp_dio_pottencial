@@ -16,9 +16,17 @@ namespace ExemplosFundamentos.Common.Models
         {
             System.Console.WriteLine($"{x} + {y} = {x + y}");
         }
-        public void Subtrair(int x, int y)
+
+        /// <summary>
+        /// Realiza a subtração de dois números
+        /// </summary>
+        /// <param name="x">O primeiro número inteiro para subtrair</param>
+        /// <param name="y">O segundo número inteiro para subtrair</param>
+        /// <returns>Retorna a subtração de x e y</returns>
+        public int Subtrair(int x, int y)
         {
             System.Console.WriteLine($"{x} - {y} = {x - y}");
+            return x - y;
         }
         public void Multiplicar(int x, int y)
         {
