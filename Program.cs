@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ExemploExplorando.Models;
+
+// Instanciando uma classe Pessoa
+Pessoa p1 = new Pessoa();
