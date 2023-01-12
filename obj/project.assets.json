@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\dev\\trilha-net-fundamentos-desafio\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectUniqueName": "A:\\dev\\DIO\\Pottencial .NET com C#\\ExemploExplorando\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
-      "projectPath": "A:\\dev\\trilha-net-fundamentos-desafio\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectPath": "A:\\dev\\DIO\\Pottencial .NET com C#\\ExemploExplorando\\ExemploExplorando.csproj",
       "packagesPath": "C:\\Users\\vmm_7\\.nuget\\packages\\",
-      "outputPath": "A:\\dev\\trilha-net-fundamentos-desafio\\ExemploExplorando\\obj\\",
+      "outputPath": "A:\\dev\\DIO\\Pottencial .NET com C#\\ExemploExplorando\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
