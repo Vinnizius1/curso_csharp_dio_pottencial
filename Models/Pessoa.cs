@@ -24,11 +24,14 @@ namespace ExemploExplorando.Models
                 _nome = value;
                 /* "value" é o argumento que receberá o "nome" */
 
-                /* BODY EXPRESSION no "set" poderia ser assim (sem o 'if'):
-                set => _nome = value;
-                 */
+                /* BODY EXPRESSION no "set" poderia ser assim (sem o 'if'): set => _nome = value; */
             }
         }
+
+        public string Sobrenome { get; set; }
+
+        public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
+
         public int Idade
         {
             get => _idade;
@@ -47,7 +50,8 @@ namespace ExemploExplorando.Models
         // método
         public void Apresentar()
         {
-            System.Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            // System.Console.WriteLine($"Nome: {Nome} {Sobrenome}, Idade: {Idade}");
+            System.Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
     }
 }
