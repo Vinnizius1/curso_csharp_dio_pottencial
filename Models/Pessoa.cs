@@ -9,7 +9,24 @@ namespace ExemploExplorando.Models
     {
         private string _nome;
 
-        public string Nome { get; set; }
+        public string Nome
+        {
+            get
+            {
+                return _nome.ToUpper();
+            }
+
+            set
+            {
+                if (value == "")
+                {
+                    throw new ArgumentException("O nome não pode ser vazio");
+                }
+
+                _nome = value;
+                /* "value" é o argumento que receberá o "nome" */
+            }
+        }
         public int Idade { get; set; }
 
         // método
