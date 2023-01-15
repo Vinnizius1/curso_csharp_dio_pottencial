@@ -11,10 +11,7 @@ namespace ExemploExplorando.Models
 
         public string Nome
         {
-            get
-            {
-                return _nome.ToUpper();
-            }
+            get => _nome.ToUpper();
 
             set
             {
@@ -25,6 +22,10 @@ namespace ExemploExplorando.Models
 
                 _nome = value;
                 /* "value" é o argumento que receberá o "nome" */
+
+                /* BODY EXPRESSION no "set" poderia ser assim (sem o 'if'):
+                set => _nome = value;
+                 */
             }
         }
         public int Idade { get; set; }
