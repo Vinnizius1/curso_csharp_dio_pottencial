@@ -22,9 +22,11 @@ namespace ExemploExplorando.Models
                 }
 
                 _nome = value;
-                /* "value" é o argumento que receberá o "nome" */
+                /* "value" é o argumento que receberá o nome */
 
-                /* BODY EXPRESSION no "set" poderia ser assim (sem o 'if'): set => _nome = value; */
+                /* BODY EXPRESSION no "set", sem o 'if', poderia ser assim: 
+                set => _nome = value; 
+                */
             }
         }
 
