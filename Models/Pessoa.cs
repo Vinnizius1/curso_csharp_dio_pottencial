@@ -23,7 +23,6 @@ namespace ExemploExplorando.Models
 
                 _nome = value;
                 /* "value" é o argumento que receberá o nome */
-
                 /* BODY EXPRESSION no "set", sem o 'if', poderia ser assim: 
                 set => _nome = value; 
                 */
@@ -49,7 +48,7 @@ namespace ExemploExplorando.Models
             }
         }
 
-        // método
+        // Método
         public void Apresentar()
         {
             // System.Console.WriteLine($"Nome: {Nome} {Sobrenome}, Idade: {Idade}");
