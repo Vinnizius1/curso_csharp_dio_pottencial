@@ -13,15 +13,20 @@ namespace ExemploExplorando.Models
         public List<Pessoa> Alunos { get; set; }
 
         // Métodos
-        void AdicionarAluno(Pessoa aluno)
+        public void AdicionarAluno(Pessoa aluno)
         {
             Alunos.Add(aluno);
         }
 
-        int ObterQuantidadeDeAlunosMatriculados()
+        public int ObterQuantidadeDeAlunosMatriculados()
         {
             int quantidade = Alunos.Count;
             return quantidade;
+        }
+
+        public bool RemoverAluno(Pessoa aluno)
+        {
+            return Alunos.Remove(aluno);
         }
     }
 }
