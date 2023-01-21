@@ -10,7 +10,7 @@ p2.Nome = "Pâmela";
 p2.Sobrenome = "Regina";
 
 Curso cursoDeIngles = new Curso();
-cursoDeIngles.Nome = "Ingles";
+cursoDeIngles.Nome = "Inglês";
 cursoDeIngles.Alunos = new List<Pessoa>();
 
 cursoDeIngles.AdicionarAluno(p1);
