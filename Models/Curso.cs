@@ -12,10 +12,16 @@ namespace ExemploExplorando.Models
         // List é uma coleção de um determinado tipo, no caso, tipo Pessoa
         public List<Pessoa> Alunos { get; set; }
 
-        // Método
-        public void AdicionarAluno(Pessoa aluno)
+        // Métodos
+        void AdicionarAluno(Pessoa aluno)
         {
             Alunos.Add(aluno);
+        }
+
+        int ObterQuantidadeDeAlunosMatriculados()
+        {
+            int quantidade = Alunos.Count;
+            return quantidade;
         }
     }
 }
