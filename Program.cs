@@ -13,6 +13,10 @@ Curso cursoDeIngles = new Curso();
 cursoDeIngles.Nome = "Ingles";
 cursoDeIngles.Alunos = new List<Pessoa>();
 
+cursoDeIngles.AdicionarAluno(p1);
+cursoDeIngles.AdicionarAluno(p2);
+cursoDeIngles.ListarAlunos();
+
 
 
 
